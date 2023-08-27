@@ -1,0 +1,240 @@
+{
+  "votes":{
+
+    "countries":
+    [
+      {"country": "Togo",
+        "scores": [
+          {"candidat": "A2O",
+            "score": "49%"
+          },
+          {"candidat": "ABO",
+            "score": "45%"
+          }
+        ]
+      },
+      {
+      "country": "Gabon",
+      "cities": [
+        {
+
+            "name": "Libreville",
+            "register":0,
+            "votant":10000,
+            "vote_nul":0,
+            "vote_blanc":0,
+            "bureaux": [
+              {
+                "name": "Bah Oumar",
+                "scores": [
+                  {"candidat": "A2O", "score":"70%" },
+                  {"candidat": "ABO", "score": "17,14%"}
+                ]
+              }
+            ],
+            "result":
+            [
+              {"candidat":"ABO",
+                "score":1000 },
+              {"candidat":"A2O",
+                "score":90000
+              }
+            ]
+
+          },
+        {"name": "Owendo","bureaux": [
+          {
+            "name": "1",
+            "scores": [
+              {"candidat" :  "A2O",
+                "score": 140
+              },
+              {"candidat":  "ABO", "score": 83
+              }
+            ]
+          },
+          {
+            "name": "2",
+            "scores": [
+              {"candidat" :  "A2O",
+                "score": 136
+              },
+              {"candidat":  "ABO", "score": 73
+              }
+            ]
+          },
+          {
+            "name": "3",
+            "scores": [
+              {"candidat" :  "A2O",
+                "score": 134
+              },
+              {"candidat":  "ABO", "score": 63
+              }
+            ]
+          }
+        ]},
+        {"name": "Essassa",
+          "bureaux": [
+            {
+              "name": "1",
+              "scores": [
+                {"candidat" :  "A2O",
+                  "score": 588
+                },
+                {"candidat":  "ABO", "score": 261
+                }
+              ]
+            }
+          ]
+        },
+        {"name": "Port-Gentil",
+        "bureaux": [{
+          "name": "1",
+          "centre": "Saint-Andre",
+          "scores": [
+            {"candidat": "A20",
+              "score": 146
+            },
+            {"candidat" :  "ABO",
+              "score": "73"
+            }
+          ]
+
+        }
+          ]}
+
+      ]
+
+    },
+      {
+        "country": "France",
+        "cities" : [
+          {
+            "name": "Paris 16e",
+            "bureaux": [
+              {
+                "name": "1",
+                "nb_votant": 235,
+                "scores": [
+                  {"candidat" :  "A2O",
+                    "score": 194
+                  },
+                  {"candidat":  "ABO", "score": 32}
+                ]
+              },
+              {
+                "name": "3",
+                "nb_votant": 200,
+                "scores": [
+                  {"candidat" :  "A2O",
+                    "score": 170
+                  },
+                  {"candidat":  "ABO", "score": 24}
+                ]
+              },
+              {
+                "name": "8",
+                "nb_votant": 168,
+                "scores": [
+                  {"candidat" :  "A2O",
+                    "score": 128
+                  },
+                  {"candidat":  "ABO", "score": 11}
+                ]
+              },
+              {
+                "name": "7",
+                "nb_votant": 202,
+                "scores": [
+                  {"candidat" :  "A2O",
+                    "score": 165
+                  },
+                  {"candidat":  "ABO", "score": 29}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Paris 6e",
+            "bureaux": [
+              {
+                "name": "1",
+                "nb_votant": 235,
+                "scores": [
+                  {"candidat" :  "A2O",
+                    "score": 194
+                  },
+                  {"candidat":  "ABO", "score": 32}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "England",
+        "cities": {
+          "name":"London",
+          "scores": [
+            {"candidat": "A2O", "score": "26"},
+            {"candidat": "ABO", "score": "48"}
+          ]
+        }
+      },
+      {
+        "country": "USA",
+        "cities" : [
+          {"name": "Washington",
+            "scores": [
+              {"candidat": "A2O" ,
+                "score"
+              : 62},{ "candidat": "ABO",
+                "score": 52
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Senegal",
+        "cities": [
+          {
+            "name":"Dakar",
+            "votant":1481,
+            "vote_blanc": 0,
+            "vote_nul": 0,
+            "result": [
+              {"candidat": "ABO", "score":267 },
+              {"candidat":  "A2O",
+                "score": 1181
+              }
+            ]
+          }
+        ]
+      },
+      {"country": "Cameroun",
+      "cities": [
+        {
+          "name": "Douala",
+          "scores":[
+            {"candidat": "A2O",
+              "score": "62,96%"
+            },
+            {"candidat": "ABO",
+              "score": "37,04%"
+            }
+          ]
+        },
+        {"name": "Yaoundé",
+          "scores": [
+            {"candidat": "A20",
+              "score": "42,47%"
+            },
+            {"candidat": "ABO", "score": "58,40%"}
+          ]
+        }
+      ]}
+    ]
+  }
+}
