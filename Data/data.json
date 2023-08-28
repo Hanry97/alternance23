@@ -1,4 +1,9 @@
 {
+  "candidats": [
+    {"code": "A2O", "firstname": "Albert", "lastname": "ONDO OSSA"},
+    {"code": "ABO", "firstname": "Ali", "lastname": "BONGO ONDIMBA"}
+
+  ],
   "votes":{
 
     "countries":
@@ -102,8 +107,35 @@
           ]
 
         }
-          ]}
+          ]},
+        {"name": "Oyem",
+          "bureaux":[
+            {"name": "Angone",
+            "scores": [
+              {"candidat": "A2O",
+                "score": 143
+              },
+              {"candidat": "ABO",
+                "score": 36
+              }
+            ]
+          },
+            {"name": "Akok Barrage",
+              "score": 98
+            },
+            {"name":  "Mvomayop" ,
+              "scores": [
+                {"candidat": "A2O",
+                  "score": 146
+                },
+                {"candidat": "ABO",
+                  "score": 29
+                }
+              ]
+            }
 
+        ]
+        }
       ]
 
     },
@@ -169,6 +201,28 @@
                 ]
               }
             ]
+          },
+          {"name": "Nantes",
+            "scores": [{"candidat": "A2O",
+              "score": "100%"
+            }, {"candidat": "ABO",
+              "score": "0%"
+            }]
+          },
+          {"name": "Montpelier",
+            "scores": [{"candidat":"A2O","score":"100%"}, {"candidat": "ABO","score": "0%"}]
+          },
+          {"name": "Marseille",
+            "scores": [{"candidat":"A2O","score":"99%"}, {"candidat": "ABO","score": "1%"}]
+          },
+          {"name": "Lille",
+            "scores": [{"candidat":"A2O","score":"100%"}, {"candidat": "ABO","score": "0%"}]
+          },
+          {"name": "Lyon",
+            "scores": [{"candidat":"A2O","score":"92%"}, {"candidat": "ABO","score": "7%"}]
+          },
+          {"name": "Toulouse",
+            "scores": [{"candidat":"A2O","score":"95%"}, {"candidat": "ABO","score": "3%"}]
           }
         ]
       },
@@ -191,6 +245,14 @@
                 "score"
               : 62},{ "candidat": "ABO",
                 "score": 52
+              }
+            ]
+          },
+          {"name": "New York",
+            "scores": [
+              {"candidat": "A2O", "score": "60%"},
+              {"candidat": "ABO",
+                "score": "38%"
               }
             ]
           }
@@ -234,7 +296,11 @@
             {"candidat": "ABO", "score": "58,40%"}
           ]
         }
-      ]}
+      ]},
+      {"country": "Maroc",
+        "scores": [{"candidat":"A2O","score":"72,83%"}, {"candidat": "ABO","score": "26,38%"}]
+
+      }
     ]
   }
 }
