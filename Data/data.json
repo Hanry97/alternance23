@@ -20,6 +20,7 @@
       },
       {
       "country": "Gabon",
+        "id": "GA",
       "cities": [
         {
 
@@ -237,7 +238,7 @@
         }
       },
       {
-        "country": "USA",
+        "country": "United States",
         "cities" : [
           {"name": "Washington",
             "scores": [
@@ -275,7 +276,7 @@
           }
         ]
       },
-      {"country": "Cameroun",
+      {"country": "Cameroon",
       "cities": [
         {
           "name": "Douala",
@@ -297,7 +298,7 @@
           ]
         }
       ]},
-      {"country": "Maroc",
+      {"country": "Marocco",
         "scores": [{"candidat":"A2O","score":"72,83%"}, {"candidat": "ABO","score": "26,38%"}]
 
       }
