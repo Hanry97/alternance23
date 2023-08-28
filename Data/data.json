@@ -20,7 +20,6 @@
       },
       {
       "country": "Gabon",
-        "id": "GA",
       "cities": [
         {
 
@@ -37,18 +36,11 @@
                   {"candidat": "ABO", "score": "17,14%"}
                 ]
               }
-            ],
-            "result":
-            [
-              {"candidat":"ABO",
-                "score":1000 },
-              {"candidat":"A2O",
-                "score":90000
-              }
             ]
 
           },
-        {"name": "Owendo","bureaux": [
+        {"name": "Owendo",
+          "bureaux": [
           {
             "name": "1",
             "scores": [
@@ -228,7 +220,7 @@
         ]
       },
       {
-        "country": "England",
+        "country": "United Kingdom",
         "cities": {
           "name":"London",
           "scores": [
@@ -291,14 +283,14 @@
         },
         {"name": "Yaoundé",
           "scores": [
-            {"candidat": "A20",
+            {"candidat": "A2O",
               "score": "42,47%"
             },
             {"candidat": "ABO", "score": "58,40%"}
           ]
         }
       ]},
-      {"country": "Marocco",
+      {"country": "Morocco",
         "scores": [{"candidat":"A2O","score":"72,83%"}, {"candidat": "ABO","score": "26,38%"}]
 
       }

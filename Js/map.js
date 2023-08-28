@@ -1,17 +1,7 @@
 
 am5.ready(async function () {
 
-    /**
-     * ---------------------------------------
-     * This demo was created using amCharts 5.
-     *
-     * For more information visit:
-     * https://www.amcharts.com/
-     *
-     * Documentation is available at:
-     * https://www.amcharts.com/docs/v5/
-     * ---------------------------------------
-     */
+
     const data = await readdata()
     const countries = await (await fetch("./Js/geodata/json/data/countries2.json")).json()
     const candidats = data.candidats
@@ -24,9 +14,7 @@ am5.ready(async function () {
             countryData = countriesData.filter(ct=>ct.country===countryMap.country)[0]
             console.dir(countriesData)
             if(countryData!=null){
-                if(countryData.scores){
-
-                }
+                loadChart(candidats,countryData)
             }
         }
     }
@@ -180,6 +168,5 @@ am5.ready(async function () {
 
 // Make stuff animate on load
     chart.appear(1000, 100);
-
-
+    createChart()
 });
